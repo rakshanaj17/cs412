@@ -12,6 +12,7 @@ def ord_prefixspan(filename,min_sup):
 
     final_output=recfunc('',SDB,min_sup)
     print(final_output)
+    return final_output
 
 def getPDB(item,SDB):
     PDB=[]
